@@ -1,2 +1,3 @@
-# ft_printf42
-ft_printf is a function similar to the printf standard function 
+# ft_printf
+
+## here we are recreating the famous c standard function printf,it will teach us how to deal with the varaidic arguments.
