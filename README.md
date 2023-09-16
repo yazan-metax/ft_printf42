@@ -1,4 +1,4 @@
-# ft_printf
+                                                   # ft_printf
 
 ## about the project 
 - here we are recreating the famous c standard function printf,ft_printf is a simplified version of printf function,ft_printf is a project of 42school curriculum,This is a common exercise used to deepen understanding of how variadic functions and string formatting work in C. It's a great way to gain insight into the inner workings of standard library functions.
