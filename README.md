@@ -7,9 +7,9 @@
 # 🚨note(this project doesn't include the bonus part)
 
 ## how to use it !
-### 1. include this repo into your project.
-### 2. include the header `#include "ft_printf"` into your header file.
-### 3. compiling the library:
+#### 1. include this repo into your project.
+#### 2. include the header `#include "ft_printf.h"` into your header file.
+#### 3. compiling the library:
 to compile, go to path where you have the library included in,and run
 ```
 $ make
