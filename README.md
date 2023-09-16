@@ -60,4 +60,21 @@ $ make
 ```
 
 # parsing  format specifiers 
+parsing format specifiers is a crucial step in implementing a function like ` printf ` or its simplified version `ft_printf`. `Format specifiers` are special placeholders in a format string that dictate how the arguments should be formatted and printed.
+
+### our ft_printf should support the following conversions
+
+| conversions | explanation                                           |
+| ------------| ----------------------------------------------------- | 
+
+
+
+
+
+
+
+
+
+
+
 
