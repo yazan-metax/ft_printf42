@@ -77,8 +77,13 @@ parsing format specifiers is a crucial step in implementing a function like ` pr
 | %%          | Print a percent sign.                                                                          |
 
 
+### i hope this will be useful  for you ☺️;)
+
+## ☑️tester
+here i include a third party tester , it can be so handy to test your code before submitting it;
+
 ```
-# tester
+* [Tripouille/printfTester](https://github.com/Tripouille/printfTester)
 ```
 
 
