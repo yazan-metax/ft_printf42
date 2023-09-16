@@ -82,8 +82,7 @@ parsing format specifiers is a crucial step in implementing a function like ` pr
 ## ☑️tester
 here i include a third party tester , it can be so handy to test your code before submitting it;
 
-```
+
 * [Tripouille/printfTester](https://github.com/Tripouille/printfTester)
-```
 
 
