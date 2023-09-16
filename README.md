@@ -49,7 +49,10 @@ int sum(int count,...)
 
 ## how to use it !
 #### 1. include this repo into your project.
-#### 2. include the header `#include "ft_printf.h"` into your header file.
+#### 2. include the library into your header file or the file that you are working in.
+```
+#include "ft_printf.h"
+```
 #### 3. compiling the library:
 to compile, go to path where you have the library included in,and run
 ```
