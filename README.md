@@ -66,8 +66,9 @@ parsing format specifiers is a crucial step in implementing a function like ` pr
 
 | conversions | info                                             |
 | ----------- | ------------------------------------------------ |
-
-
+| %c          | Print a single character.                        |
+| %s          | Print a string of characters.                                                                 |
+| %p          | print a pointer to a memory address it is printed in hexadecimal.                                        |
 
 
 
