@@ -5,12 +5,12 @@
 - Recreating printf is indeed a valuable learning experience, as it involves handling variable arguments, parsing format specifiers, and performing formatted output. Understanding how these components come together to produce formatted output is crucial for becoming proficient in C programming. 
 ## explanation of the project:
 ### Variadic functions:
-they are functions that can accept a variable number of arguments in c and c++,to work with the variadic functions we need to include the header `<stdarg.h>` which includes types and macros that we are going to be using in this project.
+variadic function are functions that can accept a variable number of arguments in c and c++,to work with the variadic functions we need to include the header `<stdarg.h>` which includes types and macros that we are going to be using in this project.
 
 ### - declaring a variadic function:
 to declare a variadic function, we use ellipses "..." to indicate that the function takes a variable number of arguments. for example
 
-```c
+```
 #include <stdarg.h>
 
 int sum(int count, ...) {
@@ -19,8 +19,10 @@ int sum(int count, ...) {
 }
 ```
 
-
-
+### initialising and accessing arguments:
+to access the variable arguments within the function, we use `va_list` type and related  macros provided by the <stdarg.h> library
+- `va_start()`: it takes two arguments `va_start(args,TheLastNamed)`, it initializes the "args" variable to start accessing the variable arguments, we need to specify the last named argument before the ellipses.
+- 
 
 
 
