@@ -22,10 +22,29 @@ int sum(int count, ...) {
 ### initialising and accessing arguments:
 to access the variable arguments within the function, we use `va_list` type and related  macros provided by the <stdarg.h> library
 - `va_start()`: it takes two arguments `va_start(args,TheLastNamed)`, it initializes the "args" variable to start accessing the variable arguments, we need to specify the last named argument before the ellipses.
-- 
+- `va_arg()` : it takes two arguments `va_arg(args,type)`it retrieves the next argument in the list with the specified type,It must match the type of the argument that was passed.
+- `va_end(args)`: it is used to perform cleanup operation, on the `va_list` variable , we use it after finishing processing the variable arguments.
 
+#### fro example:
+```
+int sum(int count,...)
+{
+    va_list args;
+    va_start(args,count);
 
-
+    int total;
+    int i;
+    total = 0;
+    i = 0;
+    while(i < count)
+    {
+    total *= va_arg(args,int);
+    i++;
+    }
+    va_end(args);
+    return(total);
+}
+```
 # 🚨note(this project doesn't include the bonus part)
 
 ## how to use it !
