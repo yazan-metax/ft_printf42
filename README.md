@@ -38,8 +38,8 @@ int sum(int count,...)
     i = 0;
     while(i < count)
     {
-    total *= va_arg(args,int);
-    i++;
+        total *= va_arg(args,int);
+        i++;
     }
     va_end(args);
     return(total);
