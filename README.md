@@ -64,8 +64,8 @@ parsing format specifiers is a crucial step in implementing a function like ` pr
 
 ### our ft_printf should support the following conversions
 
-| Conversion | Short Description                                                                             |
-|------------|-----------------------------------------------------------------------------------------------|
+| conversions | info                                             |
+| ----------- | ------------------------------------------------ |
 
 
 
